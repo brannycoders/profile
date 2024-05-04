@@ -3,15 +3,22 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'merriwheather', serif;
+    font-size: 200%;
 }
 h1{
-    margin: 0;
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
     font-family: 'sacramento', cursive;
+    font-size: 5.625rem;
 }
-h2 {
+p {
+    color: #66BFBF;
     font-family: 'montserrar', sans-serif;
+    font-size: 3.5rem;
+    font-weight: normal;
 }
 h3 {
+    color: #11999E;
     font-family: 'montserrar', sans-serif;
 }
 .top-container {
@@ -19,16 +26,44 @@ h3 {
     position: relative;
     padding: 100px;
 }
+.middle-container{
+
+}
+.profile-img{
+    width: 25%;
+}
+
+.bottom-container{
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1;
+}
 .pro{
     text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
 .bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+
+.coding-img{
+width: 25%;
+float: left;
+margin: 30px;
+
+}
+.chillies-img{
+    width: 25%;
+    float: right;
+    margin: 30px;
 }
